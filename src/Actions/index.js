@@ -8,3 +8,13 @@ export function decNumber() {
         type:"DECREMENT"
     }
 }
+export function mulNumber() {
+    return {
+        type:"MULTIPLY"
+    }
+}
+export function divNumber() {
+    return {
+        type:"DIVIDE"
+    }
+}

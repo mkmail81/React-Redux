@@ -1,4 +1,4 @@
-const initialState = 10;
+const initialState = 1;
 function ChangeTheNumber(state=initialState, action) {
    switch(action.type){
        case "INCREMENT": return state +1;
